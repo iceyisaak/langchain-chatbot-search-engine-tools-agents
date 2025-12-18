@@ -8,3 +8,5 @@ langchain_openai
 faiss-cpu
 arxiv
 wikipedia
+streamlit
+ddgs
