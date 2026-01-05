@@ -57,36 +57,25 @@ conda activate langchain-chatbot-search-engine-tools-agents
 
 ```
 
-### 3. Configure Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-OPENAI_API_KEY=your_actual_api_key_here
-# Add other keys if using specialized tools (e.g., Arxiv)
-
-```
+---
 
 ## 🚀 Usage
 
 Run the chatbot via the command line or your preferred interface:
 
-```bash
-python main.py
-
-```
-
-If you are using a Streamlit interface:
 
 ```bash
 streamlit run app.py
 
 ```
 
+Once the app is up, **Enter your Groq API in the sidebar**
+
+
 ## 🧠 How it Works
 
-1. **Input:** User asks "Who won the game last night?"
-2. **Thought:** The agent recognizes it doesn't have current sports data.
+1. **Input:** User asks "What is attention mechanism?"
+2. **Thought:** The agent recognizes it doesn't have information.
 3. **Action:** It triggers the `duckduckgo_search` tool.
 4. **Observation:** The tool returns the latest scores.
 5. **Response:** The agent synthesizes the search results into a concise answer.
