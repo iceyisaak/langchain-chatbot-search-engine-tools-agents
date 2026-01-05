@@ -4,13 +4,6 @@ StreamlitUI: https://langchain-chatbot-search-engine-tools-agents-hznbx9rbcsusfb
 
 Repo: https://github.com/iceyisaak/langchain-chatbot-search-engine-tools-agents
 
----
-
-Based on the repository name and common patterns for LangChain-based search agents, here is a comprehensive `README.md` template you can use for your project.
-
----
-
-Here is the updated `README.md` content tailored to your project. I have included the **Conda** instructions and removed the specific references to Tavily and SerpAPI, focusing instead on open-source or standard search integrations like DuckDuckGo.
 
 ---
 
